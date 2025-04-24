@@ -31,5 +31,10 @@
 	a{
 		text-decoration: none;
 		color: #042750;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+		&:hover{
+			text-decoration: underline 2px #07458c ;
+		}
 	}
 }
