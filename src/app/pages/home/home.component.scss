@@ -1,5 +1,5 @@
 .home__container{
-	width: 90%;
+	width: 95%;
 	margin: 1rem ;
 	padding-top: 3.125rem;
 
@@ -7,4 +7,51 @@
 	justify-content: space-around;
 	align-items: baseline;
 	flex-wrap: wrap;
+}
+
+.ofertas {
+	padding-top: 5rem;
+	padding-left: 5rem;
+	color: #f2eaea;
+
+	h1{
+		font-size: 40px;
+		text-decoration: underline 2px;
+	}
+
+	a{
+		text-decoration: none;
+		color: #f2eaea;
+		font-weight: 400;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	}
+}
+
+.button-back{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+	img{
+		width: 50px;
+
+		&:hover{
+			width: 55px;
+		}
+	}
+}
+
+.button-foward{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img{
+		width: 50px;
+
+		&:hover{
+			width: 55px;
+		}
+	}
 }
