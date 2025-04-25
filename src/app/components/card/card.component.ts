@@ -7,6 +7,17 @@ import { Component, Input } from '@angular/core';
 })
 export class CardComponent {
 
+	@Input()
+	gameCover:string = ""
+
+	@Input()
+	gameLabel:string = ""
+
+	@Input()
+	gameType:string = ""
+
+	@Input()
+	gamePrice:string = ""
 
 	constructor(){
 
