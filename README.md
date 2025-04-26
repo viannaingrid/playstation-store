@@ -1,27 +1,48 @@
-# PlaystationSore
+<h1>🎮 PlayStation Store</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+  <p>
+    Este projeto é uma reprodução da interface da <strong>PlayStation Store</strong>, com foco em desenvolvimento <strong>Front-End</strong>. Foi desenvolvido com o objetivo de praticar e demonstrar habilidades em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
+  </p>
+	<img src="https://github.com/viannaingrid/playstation-store/blob/main/src/assets/img/WhatsApp%20Image%202025-04-25%20at%2013.41.46.jpeg"/>
 
-## Development server
+  <h2>✨ Funcionalidades</h2>
+  <ul>
+    <li>Layout inspirado na loja oficial da PlayStation</li>
+    <li>Exibição de jogos com imagens e preços fictícios</li>
+    <li>Menu de navegação</li>
+  </ul>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  <h2>🛠 Tecnologias Utilizadas</h2>
+  <ul>
+    <li>Angular</li>
+    <li>TypeScript</li>
+    <li>SCSS</li>
+  </ul>
 
-## Code scaffolding
+  <h2>📦 Como Executar</h2>
+  <ol>
+    <li>Clone o repositório:
+      <pre><code>git clone https://github.com/viannaingrid/playstation-store.git</code></pre>
+    </li>
+    <li>Acesse a pasta do projeto:
+      <pre><code>cd playstation-store</code></pre>
+    </li>
+    <li>Abra o arquivo <code>index.html</code> em seu navegador.</li>
+  </ol>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  <h2>📁 Estrutura de Arquivos</h2>
+  <ul>
+    <li><code>index.html</code> - Página principal</li>
+    <li><code>style.css</code> - Estilização do site</li>
+    <li><code>script.js</code> - Lógica de interatividade (se aplicável)</li>
+    <li><code>img/</code> - Imagens utilizadas no projeto</li>
+  </ul>
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  <h2>🙋‍♀️ Sobre a Desenvolvedora</h2>
+  <p>
+    Projeto criado por <strong>Ingrid Vianna de Oliveira</strong>, estudante de Análise e Desenvolvimento de Sistemas e entusiasta de Front-End e Fullstack Development.
+  </p>
+  <p>
+    🔗 <a href="https://github.com/viannaingrid" target="_blank">GitHub</a> |
+    💼 <a href="https://www.linkedin.com/in/viannaingrid/" target="_blank">LinkedIn</a>
+  </p>
