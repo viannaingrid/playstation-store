@@ -1,6 +1,11 @@
+main{
+	border: 1px solid red;
+	height: 200vh;
+}
+
 .home__container{
 	width: 95%;
-	height: 60vh;
+	height: 40vh;
 	margin: 1rem ;
 	padding-top: 3.125rem;
 
@@ -53,6 +58,44 @@
 
 		&:hover{
 			width: 55px;
+		}
+	}
+}
+
+.melhores-ofertas{
+	margin-top: 18rem;
+	background-color: #6bc6f7;
+	border-top: 1px solid white;
+
+	h2{
+		padding-top: 2rem;
+		color: #f6efef;
+		margin-left: 10rem;
+		text-transform: capitalize;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-size: 3rem;
+		font-weight: 200;
+		padding-bottom: 2rem;
+	}
+
+	div{
+		margin: 0 1rem 0 1rem;
+		padding: 2rem;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	img{
+		margin: 1rem;
+		border-radius: 1rem;
+		width: 16vw;
+		height: 20vh;
+		transition: transform .8s;
+
+
+		&:hover{
+			transform: scale(1.1);
 		}
 	}
 }
