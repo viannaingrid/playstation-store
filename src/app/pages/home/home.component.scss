@@ -1,5 +1,4 @@
 main{
-	border: 1px solid red;
 	height: 200vh;
 }
 
@@ -59,6 +58,90 @@ main{
 		&:hover{
 			width: 55px;
 		}
+	}
+}
+
+.ofertas{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: flex-start;
+
+	h3{
+		padding: 1rem;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-weight: 400;
+	}
+
+	div{
+		width: 80vw;
+		display: flex;
+		justify-content: flex-end;
+
+		button {
+			appearance: button;
+			background-color: #106c97;
+			border: solid transparent;
+			border-radius: 16px;
+			border-width: 0 0 4px;
+			box-sizing: border-box;
+			color: #FFFFFF;
+			cursor: pointer;
+			display: inline-block;
+			font-size: 12px;
+			font-weight: 700;
+			letter-spacing: .8px;
+			line-height: 20px;
+			margin: 0;
+			outline: none;
+			overflow: visible;
+			padding: 10px 12px;
+			text-align: center;
+			text-transform: capitalize;
+			touch-action: manipulation;
+			transform: translateZ(0);
+			transition: filter .2s;
+			user-select: none;
+			-webkit-user-select: none;
+			vertical-align: middle;
+			white-space: nowrap;
+
+			&:after {
+				background-clip: padding-box;
+				background-color: #1094d1;
+				border: solid transparent;
+				border-radius: 16px;
+				border-width: 0 0 4px;
+				bottom: -4px;
+				content: "";
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: -1;
+			}
+
+			&:main, button:focus {
+				user-select: auto;
+			}
+
+			&:hover:not(:disabled) {
+				filter: brightness(1.1);
+			}
+
+			&:disabled {
+				cursor: auto;
+			}
+
+			&:active:after {
+				border-width: 0 0 0px;
+			}
+
+			&:active {
+				padding-bottom: 10px;
+			}
+		}
+
 	}
 }
 
