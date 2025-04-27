@@ -10,7 +10,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CardLabelComponent } from './components/card/card-label/card-label.component';
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { ColecoesComponent } from './pages/colecoes/colecoes.component';
-import { OfertasComponent } from './pages/ofertas/ofertas.component';
 
 @NgModule({
   declarations: [
@@ -21,8 +20,7 @@ import { OfertasComponent } from './pages/ofertas/ofertas.component';
     FooterComponent,
     CardLabelComponent,
     CardPricingComponent,
-    ColecoesComponent,
-    OfertasComponent
+    ColecoesComponent
   ],
   imports: [
     BrowserModule,
