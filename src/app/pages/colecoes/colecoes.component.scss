@@ -1,5 +1,5 @@
 main{
-	height: 300vh;
+	height: 200vh;
 }
 
 .container-semana{
@@ -30,4 +30,68 @@ main{
 		width: 98.8vw;
 		height: 90vh;
 	}
+}
+
+.categoria{
+	color: #dcd9d9;
+	padding: 2rem 0 .5rem 2rem;
+}
+
+.photos-temas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+
+  a {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    width: 20vw;
+    height: 25vh;
+    background-color: #5e5b5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+      border-radius: 0.5rem;
+      filter: brightness(0.5);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 0.5rem;
+      transition: background 0.3s;
+    }
+
+    h2 {
+      color: #bababa;
+      font-size: 1.8rem;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+
+    &:hover::after {
+      background: rgba(0, 0, 0, 0.7);
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+      filter: brightness(0.4);
+    }
+  }
 }

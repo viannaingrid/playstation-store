@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-colecoes',
@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class ColecoesComponent {
 
+	@Input()
+	photoCover:string = ""
+
+	@Input()
+	photoLabel:string = "Escolha a categoria do seu jogo"
+
+	constructor(){
+
+	}
+
+	ngOnInit(): void {
+
+	}
 }
+
